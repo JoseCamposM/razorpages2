@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\JoseCampos\\Downloads\\razorpages2\\razorpages2.csproj",
+      "projectUniqueName": "C:\\Users\\JoseCampos\\Documents\\razorpages2\\razorpages2\\razorpages2.csproj",
       "projectName": "razorpages2",
-      "projectPath": "C:\\Users\\JoseCampos\\Downloads\\razorpages2\\razorpages2.csproj",
+      "projectPath": "C:\\Users\\JoseCampos\\Documents\\razorpages2\\razorpages2\\razorpages2.csproj",
       "packagesPath": "C:\\Users\\JoseCampos\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\JoseCampos\\Downloads\\razorpages2\\obj\\",
+      "outputPath": "C:\\Users\\JoseCampos\\Documents\\razorpages2\\razorpages2\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\JoseCampos\\AppData\\Roaming\\NuGet\\NuGet.Config"

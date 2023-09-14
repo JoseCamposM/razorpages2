@@ -9,13 +9,13 @@ namespace MyApp.Namespace
         public int cantidad;
         public double precio, total;
 
-        public IActionResult OnePost()
+        public IActionResult OnPost()
         {
 
             producto = Request.Form["producto"];
             cantidad = int.Parse(Request.Form["cantidad"]!);
             precio = double.Parse(Request.Form["precio"]!);
-
+    
             total = cantidad * precio;
 
             return Page();
