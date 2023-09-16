@@ -1,0 +1,23 @@
+﻿@page
+@model MyApp.Namespace.pruebaModel
+@{
+    ViewData["Title"] = "calculadora";
+}
+
+<form method="post" asp-page-handler="Prueba" class="formPrueba">
+
+    <label asp-for="num1" class="form-label">Numero 1</label>
+    <input type="number" asp-for="num1" class="form-control">
+    <label asp-for="num2" class="form-label">Numero 2</label>
+    <input type="number" asp-for="num2" class="form-control">
+
+    <button type="submit" class="btn btn-primary" asp-page-handler="Sumar">Sumar</button>
+    <button type="submit" class="btn btn-primary" asp-page-handler="Restar">Restar</button>
+    <button type="submit" class="btn btn-primary" asp-page-handler="Multiplicar">Multiplicar</button>
+    <button type="submit" class="btn btn-primary" asp-page-handler="Dividir">Dividir</button>
+
+    <p>@Model.salida</p>
+</form>
+
+
+

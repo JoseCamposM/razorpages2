@@ -20,3 +20,27 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+.formPrueba{
+  background-color: gray;
+  width: 50%;
+  margin-left: 25%;
+  padding: 20px;
+  text-align: center;
+  font-size: 2.4rem;
+}
+
+.formPrueba input{
+  width: 80%;
+  margin-left: 10%;
+  padding: 5x;
+  text-align: center;
+  font-size: 2.4rem;
+}
+
+.formPrueba button{
+  width: 20%;
+  padding: 10px;
+  text-align: center;
+  font-size: 1rem;
+}
