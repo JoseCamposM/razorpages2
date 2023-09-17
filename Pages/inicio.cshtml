@@ -1,0 +1,14 @@
+﻿@page
+@model MyApp.Namespace.inicioModel
+@{
+     string time = DateTime.Now.ToString("tt");
+    if (time == "p. m."){
+        <h2> Buenas Tardes @TempData["Username"], Bienvenido</h2>
+    }
+    else{
+        <h2> Buenas Tardes @TempData["Username"], Bienvenido</h2>
+    } 
+}
+
+
+   
