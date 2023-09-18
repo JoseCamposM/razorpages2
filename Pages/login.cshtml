@@ -1,6 +1,7 @@
 ﻿@page
 @model MyApp.Namespace.loginModel
 @{
+    ViewData["Title"] = "Login";
 }
 
 
@@ -12,6 +13,7 @@
     <input asp-for="contraseña" class="form-control" type="password" >
     <button type="submit" class="btn btn-secondary">Ingresar</button>
      <p> @Model.mensage</p>
+     <a href="register">Registrar</a>
     </form>
 
    

@@ -1,0 +1,13 @@
+﻿@page
+@model MyApp.Namespace.registerModel
+@{
+ViewData["Title"] = "Register";
+}
+
+<form class="logingForm" method="post" asp-page-handler="Register">
+    <label asp-for="usuario" class="form-label"> Usuario</label> 
+    <input asp-for="usuario" class="form-control">
+    <label asp-for="contraseña" class="form-label"> Contraseña</label> 
+    <input asp-for="contraseña" class="form-control" type="password" >
+    <button type="submit" class="btn btn-secondary">Registrar</button> 
+</form>

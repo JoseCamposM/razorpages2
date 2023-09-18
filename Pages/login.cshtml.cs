@@ -19,7 +19,7 @@ namespace MyApp.Namespace
             contraseña = Request.Form["contraseña"];
             TempData["Username"] = usuario;
 
-            if (user == usuario && password == contraseña){
+            if (user == @TempData["Username"] && password == @TempData["Password"]){
 
                 return RedirectToPage("/inicio");
             }
