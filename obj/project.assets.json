@@ -8,19 +8,19 @@
     "net7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\JoseCampos\\.nuget\\packages\\": {}
+    "C:\\Users\\jc230\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\JoseCampos\\Documents\\razorpages2\\razorpages2.csproj",
+      "projectUniqueName": "C:\\Users\\jc230\\OneDrive\\Documentos\\GitHub\\razorpages2\\razorpages2\\razorpages2.csproj",
       "projectName": "razorpages2",
-      "projectPath": "C:\\Users\\JoseCampos\\Documents\\razorpages2\\razorpages2.csproj",
-      "packagesPath": "C:\\Users\\JoseCampos\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\JoseCampos\\Documents\\razorpages2\\obj\\",
+      "projectPath": "C:\\Users\\jc230\\OneDrive\\Documentos\\GitHub\\razorpages2\\razorpages2\\razorpages2.csproj",
+      "packagesPath": "C:\\Users\\jc230\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\jc230\\OneDrive\\Documentos\\GitHub\\razorpages2\\razorpages2\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\JoseCampos\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\jc230\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"

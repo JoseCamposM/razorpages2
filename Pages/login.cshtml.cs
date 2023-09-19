@@ -9,7 +9,7 @@ namespace MyApp.Namespace
     public class loginModel : PageModel
     {
         string user = "jose", password = "123456";
-        public string mensage;
+        public string? mensage;
         public string? usuario {get;set;}
         public string? contraseña {get;set;}
 
@@ -17,10 +17,11 @@ namespace MyApp.Namespace
 
             usuario = Request.Form["usuario"];
             contraseña = Request.Form["contraseña"];
-            TempData["Username"] = usuario;
+            string usuarioreg = TempData["Username"] as string;
+            string contraseñareg = TempData["Password"] as string;
 
-            if (user == @TempData["Username"] && password == @TempData["Password"]){
-
+            if (user == usuarioreg && contraseñareg == contraseña){
+                
                 return RedirectToPage("/inicio");
             }
             else{

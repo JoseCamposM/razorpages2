@@ -5,16 +5,17 @@ namespace MyApp.Namespace
 {
     public class registerModel : PageModel
     {
-        public string? usuario {set; get;}
-        public string? contraseña {set; get;}
+        public string? registerUse {get; set;}
+        public string? passUse {get; set;}
         public string? mensage =  "asdasd";
-        public IActionResult PostRegister(){
-            usuario = Request.Form["usuario"];
-            contraseña = Request.Form["contraseña"];
-            
-            if (!string.IsNullOrEmpty(usuario)){
-                TempData["Username"] = usuario;
-                TempData["Password"] = contraseña;
+        public IActionResult OnPost(){
+            registerUse = Request.Form["registerUse"];
+            passUse = Request.Form["passUse"];
+            TempData["Username"] = registerUse;
+            TempData["Password"] = passUse;
+
+            if (!string.IsNullOrWhiteSpace(registerUse)){
+               
                 return RedirectToPage("/login");
             }
             else{
